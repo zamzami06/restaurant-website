@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savory Bistro - Modern Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <i class="fas fa-utensils"></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Savory</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>Discover</span> 
+                    <span class="gradient-text">Culinary</span> 
+                    Excellence
+                </h1>
+                <p class="hero-subtitle">Experience exquisite flavors crafted with passion and perfection</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-outline">Book Table</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-bg"></div>
+                <div class="floating-card">
+                    <i class="fas fa-star"></i>
+                    <span>4.9 Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Welcome to Savory Bistro</span>
+                <h2 class="section-title">About Our Restaurant</h2>
+                <p class="section-desc">Where tradition meets innovation in every bite</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Restaurant Interior">
+                    <div class="image-overlay">
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>500+</h3>
+                                <span>Happy Customers</span>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <span>Menu Items</span>
+                            </div>
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <span>Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Savory Bistro was born from a passion for exceptional food and unforgettable dining experiences. Our chefs combine global flavors with local ingredients to create dishes that delight the senses.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-fire"></i>
+                            <span>Expert Chefs</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Specialties</span>
+                <h2 class="section-title">Restaurant Menu</h2>
+                <p class="section-desc">Indulge in our carefully curated selection</p>
+            </div>
+            
+            <!-- Menu Tabs -->
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="appetizers">
+                    <i class="fas fa-pepper-hot"></i> Appetizers
+                </button>
+                <button class="tab-btn" data-tab="mains">
+                    <i class="fas fa-drumstick-bite"></i> Main Course
+                </button>
+                <button class="tab-btn" data-tab="desserts">
+                    <i class="fas fa-ice-cream"></i> Desserts
+                </button>
+                <button class="tab-btn" data-tab="drinks">
+                    <i class="fas fa-cocktail"></i> Drinks
+                </button>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="menu-container">
+                <div class="tab-content active" id="appetizers">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop" alt="Bruschetta">
+                            <div class="menu-info">
+                                <h4>Classic Bruschetta</h4>
+                                <div class="price">$12</div>
+                                <p>Tomato, basil, garlic on toasted bread</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1632399591178-2c5e3f3e5496?w=400&h=300&fit=crop" alt="Calamari">
+                            <div class="menu-info">
+                                <h4>Fried Calamari</h4>
+                                <div class="price">$16</div>
+                                <p>Crispy rings with marinara sauce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="mains">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop" alt="Steak">
+                            <div class="menu-info">
+                                <h4>Grilled Ribeye</h4>
+                                <div class="price">$38</div>
+                                <p>12oz prime cut with herb butter</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1579586140626-0a95ee3f2c34?w=400&h=300&fit=crop" alt="Salmon">
+                            <div class="menu-info">
+                                <h4>Pan-Seared Salmon</h4>
+                                <div class="price">$28</div>
+                                <p>With lemon dill sauce & asparagus</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1541599468178-c4e6b9624569?w=400&h=300&fit=crop" alt="Pasta">
+                            <div class="menu-info">
+                                <h4>Truffle Pasta</h4>
+                                <div class="price">$24</div>
+                                <p>Homemade fettuccine with truffle cream</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop" alt="Tiramisu">
+                            <div class="menu-info">
+                                <h4>Classic Tiramisu</h4>
+                                <div class="price">$9</div>
+                                <p>Coffee soaked ladyfingers & mascarpone</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1542994983-9de75d7a2f15?w=400&h=300&fit=crop" alt="Cheesecake">
+                            <div class="menu-info">
+                                <h4>New York Cheesecake</h4>
+                                <div class="price">$8</div>
+                                <p>With berry compote & whipped cream</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="drinks">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1512568400610-42fe603bdce2?w=400&h=300&fit=crop" alt="Wine">
+                            <div class="menu-info">
+                                <h4>Red Wine</h4>
+                                <div class="price">$15/glass</div>
+                                <p>Cabernet Sauvignon</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop" alt="Cocktail">
+                            <div class="menu-info">
+                                <h4>Margarita</h4>
+                                <div class="price">$12</div>
+                                <p>Tequila, lime, triple sec</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Book Your Table</h2>
+                <p class="section-desc">Reserve your spot for an unforgettable dining experience</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Gourmet Street, Food City FC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@savorybistro.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Sun: 11AM - 11PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="time" id="time" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" required>
+                                <option value="">Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3-4">3-4 People</option>
+                                <option value="5+">5+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Special Requests" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Book Table</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Savory Bistro</h3>
+                    <p>Creating memorable dining experiences since 2019</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Savory Bistro. All rights reserved. | Designed with ❤️ for food lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
